@@ -1,29 +1,34 @@
-# Akeneo PIM help center
-This repository holds the sources for our PIM help center, made by hand with love.
+# Akeneo PIM Development Repository
+Welcome to Akeneo PIM Product.
 
-**Install/preview the PIM help center**
+This repository is used to develop the Akeneo PIM product.
 
-First, you will need [Node](https://nodejs.org/en/) as well as [Gulp-cli](https://github.com/gulpjs/gulp-cli).
+Practically, it means the Akeneo PIM source code is present in the src/ directory.
 
-Then you can run the following commands in your terminal where these sources are:
-```bash
-sudo npm install --global n
-sudo n 7.2.0
-npm install
-sudo npm install --global gulp-cli
-```
+**If you want to create a new PIM project based on Akeneo PIM, please use https://www.github.com/akeneo/pim-community-standard**
 
-To run the PIM help center locally, once Node and gulp-cli installed, run in your root folder after cloning/downloading the Helpcenter sources:
+If you want to contribute to the Akeneo PIM (and we will be pleased if you do!), you can fork this repository and submit a pull request.
 
-```bash
-npm install
+Scrutinizer | Crowdin
+----------- | -------
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/akeneo/pim-community-dev/badges/quality-score.png?s=05ef3d5d2bbfae2f9a659060b21711d275f0c1ff)](https://scrutinizer-ci.com/g/akeneo/pim-community-dev/) | [![Crowdin](https://d322cqt584bo4o.cloudfront.net/akeneo/localized.svg)](https://crowdin.com/project/akeneo)
 
-gulp serve
-```
+## Application Technical Information
 
-The PIM help center website is then available on `localhost:8000`.
-Files located in the content and src directories are watched for changes, so when developing or writing new articles you do not need to launch any other task.
+The following documentation is designed for both clients and partners and provides all technical information required to define required server(s) to run Akeneo PIM application and check that end users workstation is compatible with Akeneo PIM application:
+https://docs.akeneo.com/master/install_pim/manual/system_requirements/system_requirements.html
 
-**Documentation contribution**
+## Installation instructions
 
-It's right [here](https://github.com/akeneo/pim-helpcenter/wiki).
+To install Akeneo PIM for a PIM project or for evaluation, please follow:
+https://docs.akeneo.com/master/install_pim/index.html
+
+## Upgrade instructions
+
+To upgrade Akeneo PIM to a newer version, please follow:
+https://docs.akeneo.com/master/migrate_pim/index.html
+
+## Testing instructions
+
+To run the tests of Akeneo PIM, please follow:
+https://github.com/akeneo/pim-community-dev/blob/master/internal_doc/tests/running_the_tests.md
